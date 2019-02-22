@@ -1,0 +1,7 @@
+{
+  "name": "view-model-api-model-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TenaciousBen/ts-view-model-api-model-demo",
+  "license": "MIT"
+}
