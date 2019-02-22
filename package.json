@@ -5,6 +5,8 @@
   "repository": "https://github.com/TenaciousBen/ts-view-model-api-model-demo",
   "license": "MIT",
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.18.0",
     "typescript": "^3.3.3333"
   }
 }
