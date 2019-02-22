@@ -1,8 +1,5 @@
 import { OrganisationApiModelResponse, DepartmentApiModelResponse, EmployeeApiModelResponse } from "./api";
-
-
-const exists = <T>(value: undefined | null | T): value is T => value !== undefined && value !== null;
-const valueOrDefault = <T>(value: undefined | null | T, defaultValue: T): T => exists(value) ? value : defaultValue;
+import { valueOrDefault } from "../../utilities/value";
 
 export class OrganisationViewModel {
 	id: number;
